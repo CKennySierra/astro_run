@@ -17,7 +17,7 @@ const phasermsg = () => {
 }   
 
 export default defineConfig({
-    base: './',
+    base: '/astro_run/',
     logLevel: 'warning',
     build: {
         rollupOptions: {
